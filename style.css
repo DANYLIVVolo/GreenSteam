@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+}
+
+
+/* ===== HEADER ===== */
+
+.header {
+    background: #333;
+    padding: 15px;
+}
+
+.header-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-text {
+    color: white;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #aaa;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Пошук */
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #777;
+    background: #222;
+    color: white;
+}
+
+.search-box button {
+    padding: 8px;
+}
+
+
+/* Кнопка */
+
+.btn-install {
+    background: #555;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+/* Профіль */
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* ===== MAIN ===== */
+
+.main-content {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.section-heading {
+    font-size: 22px;
+}
+
+
+/* ===== ГОЛОВНА ГРА ===== */
+
+.hero-slider {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-main-card {
+    width: 70%;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    background: #111;
+    padding: 15px;
+}
+
+.hero-title {
+    font-size: 25px;
+}
+
+.hero-subtitle {
+    color: #ccc;
+}
+
+
+/* Маленькі ігри */
+
+.hero-sidebar {
+    width: 30%;
+}
+
+.hero-thumb {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-thumb:hover {
+    background: #444;
+}
+
+.hero-thumb img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.thumb-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.thumb-tag {
+    color: #aaa;
+}
+
+.thumb-price {
+    color: #aaa;
+}
+
+
+/* ===== ВКЛАДКИ ===== */
+
+.store-tabs-section {
+    margin-top: 30px;
+}
+
+.tabs-header {
+    margin-bottom: 15px;
+}
+
+.tab-btn {
+    padding: 10px;
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+.tab-btn:hover {
+    background: #555;
+}
+
+
+/* ===== СПИСОК ІГОР ===== */
+
+.games-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+
+    background: #333;
+    padding: 10px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.list-item:hover {
+    background: #444;
+}
+
+.item-img {
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-title {
+    margin: 0 0 10px 0;
+}
+
+.item-tags span {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+.discount-badge {
+    background: #555;
+    padding: 5px;
+}
+
+.old-price {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.final-price {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background: #333;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Картки ігор */
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.game-card {
+    background: #222;
+    padding-bottom: 10px;
+}
+
+.game-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.game-info {
+    padding: 10px;
+}
+
+.game-title-link {
+    color: white;
+    text-decoration: none;
+}
+
+.game-desc {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.game-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-more,
+.btn-buy {
+    padding: 7px;
+    text-decoration: none;
+}
+
+.btn-more {
+    background: #444;
+    color: white;
+}
+
+.btn-buy {
+    background: #555;
+    color: white;
+}
+
+
+/* Знижка */
+
+.badge {
+    position: absolute;
+    background: #555;
+    padding: 5px;
+}
+
+.game-image {
+    position: relative;
+}
+
+
+/* Нижня частина */
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+
+/* ===== ТЕЛЕФОН ===== */
+
+@media (max-width: 800px) {
+
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-slider {
+        flex-direction: column;
+    }
+
+    .hero-main-card,
+    .hero-sidebar {
+        width: 100%;
+    }
+
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .list-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-img {
+        width: 100%;
+        height: 150px;
+    }
+}
